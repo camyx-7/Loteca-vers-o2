@@ -1,15 +1,20 @@
+*{
+    margin: 0;
+}
 h1 {
     font-size: 6em;
     color: rgb(197, 90, 90);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     text-align: center;
+    margin: 50px 0;
 }
 
 .inputs{
    display: flex;
-   flex-direction: colum;
+   flex-direction: column;
    align-items: center;
+   justify-content: center;
 }
 
 input {
@@ -19,4 +24,16 @@ input {
     padding: 0;
     font-weight: bold;
     border: pink solid 2px;
+}
+.centerdiv{
+    text-align: center;
+    margin: 30px;
+}
+.geral{
+    height: calc(100vh - 209px - 118px);
+}
+footer{
+    background-color:rgb(214, 150, 150);
+    color:rgb(247, 239, 239);
+    padding: 50px;
 }
